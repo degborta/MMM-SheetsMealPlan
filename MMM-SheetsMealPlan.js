@@ -18,7 +18,7 @@ Module.register("MMM-SheetsMealPlan", {
 
   getHeader() {
     if (this.config.showWeekInfo && this.weekNum) {
-      return `${this.config.title} - v${this.weekNum} ${this.weekRange}`;
+      return `${this.config.title} v${this.weekNum} — ${this.weekRange}`;
     }
     return this.config.title;
   },
@@ -71,7 +71,7 @@ Module.register("MMM-SheetsMealPlan", {
       const d = new Date(iso);
       return `${d.getUTCDate()}/${d.getUTCMonth() + 1}`;
     };
-    return `{${fmt(startISO)} - ${fmt(endISO)}}`;
+    return `${fmt(startISO)} - ${fmt(endISO)}`;
   },
 
   getDom() {
