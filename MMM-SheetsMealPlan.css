@@ -1,0 +1,35 @@
+.MMM-SheetsMealPlan table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.MMM-SheetsMealPlan td {
+  padding: 3px 6px;
+  vertical-align: top;
+}
+
+.MMM-SheetsMealPlan td.day {
+  font-weight: bold;
+  white-space: nowrap;
+  color: #aaa;
+  min-width: 3em;
+  padding-right: 12px;
+}
+
+.MMM-SheetsMealPlan td.meal {
+  color: #ddd;
+}
+
+/* Today */
+.MMM-SheetsMealPlan tr.today td {
+  color: #fff;
+}
+
+.MMM-SheetsMealPlan tr.today td.day {
+  color: #7ec8e3;
+}
+
+/* Past days */
+.MMM-SheetsMealPlan tr.past td {
+  opacity: 0.4;
+}

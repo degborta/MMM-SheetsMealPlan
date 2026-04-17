@@ -1,0 +1,7 @@
+{
+  "name": "MMM-SheetsMealPlan",
+  "version": "1.0.0",
+  "description": "MagicMirror module for weekly meal plans from Google Sheets",
+  "main": "MMM-SheetsMealPlan.js",
+  "license": "MIT"
+}
